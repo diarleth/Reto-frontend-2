@@ -3,10 +3,62 @@ body{
     font-family: 'Epilogue', sans-serif;
     color: #172339;
     position: relative;
-    width: 1440px;
-    height: 1716px;
+}
+.padre{
     display: flex;
 }
+a{
+    text-decoration: none;
+}
 header{
-    
+    position: absolute;
+    width: 1108.85px;
+    height: 56px;
+    left: 166px;
+    top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.boton{
+    padding: 10px;
+    border: 1px solid #172339;
+    box-sizing: border-box;
+    border-radius: 6px;
+    /* position: absolute; */
+    width: 219px;
+    height: 56px;
+    left: 1055.85px;
+    top: 50px;
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.16px;
+    color: #172339;
+}
+.container-uno{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    height: 600px;
+    left: 165px;
+    top: 173px;
+}
+.container-dos{
+    position: absolute;
+    width: 1109px;
+    height: 589.56px;
+    left: 165px;
+    top: 927.44px;
+}
+footer{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1109px;
+    height: 32px;
+    left: 165px;
+    top: 1612px;
 }
