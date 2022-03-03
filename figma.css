@@ -46,15 +46,17 @@ header{
     left: 165px;
     top: 173px;
 }
-.letras{
+h1{
     font-size: 72px;
-    font-weight: 700;
+    font-weight: 400;
     width: 635px;
     height: 156px;
     left: 165px;
     top: 276px;
-    order: 1;
-    
+    order: 1;  
+}
+h1 span{
+    font-weight: 700;
 }
 .parrafo{
     font-size: 18px; 
