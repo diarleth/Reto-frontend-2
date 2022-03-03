@@ -46,6 +46,44 @@ header{
     left: 165px;
     top: 173px;
 }
+.letras{
+    font-size: 72px;
+    font-weight: 700;
+    width: 635px;
+    height: 156px;
+    left: 165px;
+    top: 276px;
+    order: 1;
+    
+}
+.parrafo{
+    font-size: 18px; 
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    position: absolute;
+    width: 350px;
+    height: 93px;
+    left: 165px;
+    top: 503px;
+    order: 2;
+}
+.imagenes{
+    position: absolute;
+    width: 350px;
+    height: 600px;
+    left: 639px;
+    top: 173px;
+    align-items: center;
+    order: 3;
+}
+.record{
+    position: absolute;
+    width: 190px;
+    height: 375px;
+    left: 1085px;
+    top: 279px;
+    
+}
 .container-dos{
     position: absolute;
     width: 1109px;
