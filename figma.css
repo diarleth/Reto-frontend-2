@@ -1,8 +1,11 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background: #FAF8F6;
     font-family: 'Epilogue', sans-serif;
     color: #172339;
-    position: relative;
+    /* position: relative; */
 }
 .padre{
     display: flex;
@@ -19,16 +22,11 @@ header{
     display: flex;
     justify-content: space-between;
 }
+
 .boton{
     padding: 10px;
     border: 1px solid #172339;
-    box-sizing: border-box;
     border-radius: 6px;
-    /* position: absolute; */
-    width: 219px;
-    height: 56px;
-    left: 1055.85px;
-    top: 50px;
     font-family: Epilogue;
     font-style: normal;
     font-weight: bold;
@@ -37,10 +35,15 @@ header{
     letter-spacing: -0.16px;
     color: #172339;
 }
+.boton:hover{
+    background: #172339;
+    color: #FAF8F6;
+}
 .container-uno{
     position: absolute;
     display: flex;
     justify-content: space-between;
+    /* align-content: flex-end; */
     width: 1110px;
     height: 600px;
     left: 165px;
@@ -53,7 +56,6 @@ h1{
     height: 156px;
     left: 165px;
     top: 276px;
-    order: 1;  
 }
 h1 span{
     font-weight: 700;
@@ -67,7 +69,6 @@ h1 span{
     height: 93px;
     left: 165px;
     top: 503px;
-    order: 2;
 }
 .imagenes{
     position: absolute;
@@ -75,23 +76,56 @@ h1 span{
     height: 600px;
     left: 639px;
     top: 173px;
-    align-items: center;
-    order: 3;
 }
 .record{
-    position: absolute;
+    /* position: absolute; */
     width: 190px;
     height: 375px;
     left: 1085px;
     top: 279px;
     
 }
+.boton2{
+    background: #172339;
+    margin: 0%;
+    border-radius: 6px;
+    padding: 15px;
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #FAF8F6;
+
+}
+.boton2:hover{
+    background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+}
 .container-dos{
     position: absolute;
+    display: flex;
     width: 1109px;
     height: 589.56px;
     left: 165px;
     top: 927.44px;
+}
+.texto2{
+    background: #172339;
+    border-radius: 15px;
+    color: #FAF8F6;
+    font-family: Epilogue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+}
+h2{
+    font-weight: 400;
+}
+h2 span{
+    font-weight: 700;
 }
 footer{
     position: absolute;
