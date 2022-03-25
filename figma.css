@@ -126,15 +126,14 @@ h1 strong{
     flex-wrap: nowrap;
     background: #172339;
     border-radius: 15px;
-    position: absolute;
-    width: 1109px;
-    height: 545px;
-    left: 120px;
-    top: 960px;
+    position: relative;
+    top: 200px;
     background-image: url("img/image-jeremy-large.png");
 }
-.line-curve2{
-    width: 64.05px;
+.container-dos .line-curve2 {
+    position: absolute;
+    left: 530px;
+    top: 150px;
 }
 .texto2{
     color: #FAF8F6;
@@ -147,7 +146,9 @@ h1 strong{
     text-align: start;
     max-width: 350px;
     width: 100%;
-    position: relative;
+    left: 650px;
+    top: 30px;
+    position: absolute;
 
 }
 .untitulo{
@@ -166,7 +167,5 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 1109px;
-    height: 32px;
-    left: 165px;
     top: 1612px;
 }
