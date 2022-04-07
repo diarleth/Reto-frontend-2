@@ -179,3 +179,30 @@ footer{
     justify-content: space-between;
     width: 15%;
 }
+.facebook:hover{
+    opacity: 0.5;
+}
+.twitter:hover{
+    opacity: 0.5;   
+}
+.instagram:hover{
+    opacity: 0.5;
+}
+@media (max-width: 750px){
+    .pater{
+        margin-top: 40px;
+    }
+    header{
+        width: 689px;
+        height: 56px;
+        left: 39px;
+        top: 40px;
+    }
+    .container-one{
+        width: 100%;
+        flex-direction: column;
+    }
+    .record{
+        display: flex;
+    }
+}
