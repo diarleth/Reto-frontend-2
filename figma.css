@@ -71,11 +71,7 @@ h1 strong{
     font-size: 18px; 
     line-height: 32px;
     letter-spacing: 0.1px;
-    /* position: absolute; */
-    /* width: 350px; */
-    height: 93px;
-    /* left: 165px;
-    top: 503px; */
+
 }
 .images{
     width: 350px;
@@ -193,16 +189,32 @@ footer{
         margin-top: 40px;
     }
     header{
-        width: 689px;
-        height: 56px;
-        left: 39px;
-        top: 40px;
+        max-width: 900px;
+        margin: 100px;
     }
+
     .container-one{
+        flex-wrap: wrap;
+        max-width: 700px;
         width: 100%;
-        flex-direction: column;
+        margin: 100px
+    }
+    .container-business{
+        width: 400px;
+    }
+    h1{
+        width: 700px;
+    }
+    .line-curve{
+    }
+    p{
+        /* width: 400px; */
+    }
+    .images{
+        left: 195px;
     }
     .record{
         display: flex;
+        
     }
 }
