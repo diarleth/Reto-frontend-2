@@ -67,7 +67,7 @@ h1{
 h1 strong{
     font-weight: 700;
 }
-.p{
+.container-business p{
     font-size: 18px; 
     line-height: 32px;
     letter-spacing: 0.1px;
@@ -82,15 +82,18 @@ h1 strong{
 .record{
     max-width: 190px;
     width: 100%;
-    height: 450px;
+    height: 520px;
     left: 25px; 
-    position: relative; 
+    position: relative;
+}
+.record-box{
+    padding: 35px; 
+    line-height: 1.4;
 }
 .record span{
     font-weight: 700;
     font-size: 48px;
-    letter-spacing: -0.5px;
-    
+    letter-spacing: -0.5px;  
 }
 .record p{
     font-weight: 400;
@@ -207,14 +210,23 @@ footer{
     }
     .line-curve{
     }
-    p{
-        /* width: 400px; */
+    .container-business p{
+        font-size: 16px;
     }
     .images{
         left: 195px;
     }
     .record{
         display: flex;
-        
-    }
+        justify-content: space-between;
+        max-width: 689px;
+        width: 100%;
+        left: 39px;
+        margin-top: 88px;
+        background-color: #A060FF;
+}
+.record-box{
+    padding: 0px;
+    text-align: center;
+}
 }
