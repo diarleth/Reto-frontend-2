@@ -59,10 +59,9 @@ header{
 h1{
     font-size: 72px;
     font-weight: 400;
-    width: 645px;
+    width: 700px;
     position: relative;
     z-index: 1;
-    margin-top: 0px;
 }
 h1 strong{
     font-weight: 700;
@@ -83,7 +82,7 @@ h1 strong{
     max-width: 190px;
     width: 100%;
     height: 520px;
-    left: 25px; 
+    left: 10px; 
     position: relative;
 }
 .record-box{
@@ -200,15 +199,13 @@ footer{
         flex-wrap: wrap;
         max-width: 700px;
         width: 100%;
-        margin: 100px
+        margin: 0px 100px;
     }
     .container-business{
         width: 400px;
     }
     h1{
         width: 700px;
-    }
-    .line-curve{
     }
     .container-business p{
         font-size: 16px;
@@ -224,9 +221,34 @@ footer{
         left: 39px;
         margin-top: 88px;
         background-color: #A060FF;
+        height: 100px;
 }
 .record-box{
     padding: 0px;
+    text-align: center;
+}
+.container-two {
+    left: 100px;
+    padding: 120px 450px;
+    top: 300px;
+}
+.background-jeremy {
+    background-image: none;
+}
+.blur {
+    left: -250px;
+    top: -350px;
+    position: relative;
+}
+.line-curve2 {
+    left: 430px;
+    top: 350px;
+}
+.paragraph {
+    font-size: 18px;
+    left: 175px;
+    top: 400px;
+    max-width: 573px;
     text-align: center;
 }
 }
