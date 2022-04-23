@@ -5,7 +5,6 @@ body{
     background: #FAF8F6;
     font-family: 'Epilogue', sans-serif;
     color: #172339;
-    /* position: relative; */
 }
 .pater{
     max-width: 1110px;
@@ -125,12 +124,27 @@ h1 strong{
     background: #172339;
     border-radius: 15px;
     position: relative;
-    top: 150px;
+    top: -420px;
+    z-index: 0;
 }
-.background-jeremy {
+/* .background-jeremy {
     background-image: url("img/image-jeremy-large.png");
     background-repeat: no-repeat;
     background-position: 50%;
+    
+} */
+.jeremy {
+    z-index: 2;
+    position: relative;
+    left: 100px;
+    top: 125px;
+}
+.blur{
+    z-index: 1;
+    position: relative;
+    left: 10px;
+    top: 100px;
+
     
 }
 .container-two .line-curve2 {
@@ -170,7 +184,9 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 1109px;
-    top: 1612px;
+    top: 1550px;
+    padding: 30px 0px;
+    background: #A060FF;
 }
 .social{
     display: flex;
