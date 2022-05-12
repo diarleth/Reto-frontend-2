@@ -123,9 +123,11 @@ h1 strong{
     flex-wrap: nowrap;
     background: #172339;
     border-radius: 15px;
-    position: relative;
-    top: -420px;
+    position: absolute;
+    top: 955px;
     z-index: 0;
+    max-width: 1100px;
+    width: 100%;
 }
 /* .background-jeremy {
     background-image: url("img/image-jeremy-large.png");
@@ -184,9 +186,8 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 1109px;
-    top: 1550px;
+    top: 1600px;
     padding: 30px 0px;
-    background: #A060FF;
 }
 .social{
     display: flex;
@@ -245,20 +246,21 @@ footer{
 }
 .container-two {
     left: 100px;
-    padding: 120px 450px;
-    top: 300px;
+    padding: 140px 453px;
+    top: 1400px;
 }
-.background-jeremy {
-    background-image: none;
+.jeremy {
+    width: 350px;   
+    height: 550px;
+    left: 370px;
 }
 .blur {
     left: -250px;
-    top: -350px;
+    top: -200px;
     position: relative;
 }
-.line-curve2 {
-    left: 430px;
-    top: 350px;
+.container-two .line-curve2 {
+
 }
 .paragraph {
     font-size: 18px;
